@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="254576e0-c68b-4af4-96ca-891cec2c13b4">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="254576e0-c68b-4af4-96ca-891cec2c13b4">
   <producedTypes>
     <objectType typeId="9c4d2964-ec5c-4e1f-9b6f-c40c3274901f" valueTypeId="04c6b6b2-5496-45b3-a993-1ea0d4628368"/>
     <refType typeId="b799018f-90b2-42a5-9931-9cc0082b7c1b" valueTypeId="9728f813-f5d7-4b2b-8659-7f8a0ed7af55"/>
@@ -30,4 +30,20 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="68f224da-e23e-490f-a2e1-a1209b32109b">
+    <name>Коментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
