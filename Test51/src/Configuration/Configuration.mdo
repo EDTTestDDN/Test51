@@ -37,4 +37,5 @@
   </languages>
   <catalogs>Catalog.Товары</catalogs>
   <documents>Document.Продажи</documents>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>
