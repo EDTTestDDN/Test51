@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a91a5740-c61a-4d50-87f7-c96d70fef4c5">
+  <producedTypes>
+    <selectionType typeId="251a3cf2-4799-4540-af24-c1a5327310e0" valueTypeId="21ca0fc3-7f3f-48b3-b2ed-96b598cbda46"/>
+    <listType typeId="966afd63-b232-4446-8aea-83643740b237" valueTypeId="09daeae3-e382-47b2-b335-8fe7b349f924"/>
+    <managerType typeId="8cedd41c-1654-4631-8ddb-2e0496af0065" valueTypeId="b0b5aca0-dccb-48ef-82a9-68bd60dc910e"/>
+    <recordSetType typeId="c7526267-acfc-462d-b40f-6d6b0809aad3" valueTypeId="1af4c474-799e-43f6-b10d-293b7aae9099"/>
+    <recordKeyType typeId="f707a23b-f83f-4ba9-b626-414269c4a99c" valueTypeId="76795c89-c8ae-40f4-b7d9-10680cd452f9"/>
+    <recordType typeId="8e7c712f-cee8-4492-8d08-8c7788b5e97c" valueTypeId="1df0a81f-1cf7-4120-8fe5-1a3707f6cd80"/>
+  </producedTypes>
+  <name>Продажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="884f4c0f-fcd8-479a-a5ea-0b24d06e79a8">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="266ed748-458f-41eb-abb1-7806f735979e">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Товары</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:AccumulationRegister>
